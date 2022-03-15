@@ -13,79 +13,43 @@
 		Притулок Литва
 		Приєднатись до руху
 		Допомогти фінансово -->
-    <header class="p-20 bg-gradient-to-r from-red-400 via-red-500 to-pink-500 text-center">
-        <h1 class="hero-heading">Gulp with TailwindCSS Kit</h1>
-        <p class="w-full text-center text-white text-xl leading-5 mb-10">Updated with Tailwind 2.0, PostCss 8.0+</p>
-        <div class="py-15 flex justify-center space-x-6">
-            <a class="github-button" href="https://github.com/manjumjn" data-show-count="true" aria-label="Follow @manjumjn on GitHub">Follow @manjumjn</a>
-            <a class="github-button" href="https://github.com/manjumjn/gulp-with-tailwindcss" data-icon="octicon-star" data-show-count="true" aria-label="Star manjumjn/gulp-with-tailwindcss on GitHub">Star</a>
-            <a class="github-button" href="https://github.com/manjumjn/gulp-with-tailwindcss/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork manjumjn/gulp-with-tailwindcss on GitHub">Fork</a>
-            <a class="github-button" href="https://github.com/manjumjn/gulp-with-tailwindcss/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download manjumjn/gulp-with-tailwindcss on GitHub">Download</a>
-						
-        </div>
-    </header>
-    <div class="mx-auto py-20 max-w-2xl">
-        <img class="shadow transition-shadow duration-500 rounded hover:shadow-lg mb-10" src="img/cover.jpg" alt="Gulp with TailwindCSS">
-        <div class="instructions">
-            <div class="mb-20 text-gray-700">
-                <h4 class="sub-title">Usage</h4>
-                <p>Use the following commands to get started.</p>
-                <code class="code transform translate-x-[20px]">
-                    <em>// To Install Dev Depedencies</em><br/>
-                    npm install<br/><br/>
-
-                    <em>// To start development and server for live preview</em><br/>
-                    npm run dev<br/><br/>
-
-                    <em>// To generate minifed,optamized files for production server</em><br/>
-                    npm run prod
-                </code>
-            </div>
-
-            <div class="mb-10 text-gray-600">
-                    <h4 class="sub-title">Options</h4>
-                    <p>To change the path of files and destination/build folder configure at <b class="font-bold">config.js</b> file</p>
-                    <!-- Ignore the messay code :P only for demo -->
-<code class="code pre transform translate-x-[-20px]">config: {
-    ...
-    port: 9050 <em>//Update port here</em>
-},
-paths: {
-    root: "./",
-    src: {
-        base: "./src",
-        css: "./src/css",
-        js: "./src/js",
-        img: "./src/img"
-    },
-    dist: {
-        base: "./dist",
-        css: "./dist/css",
-        js: "./dist/js",
-        img: "./dist/img"
-    },
-    build: {
-        base: "./build",
-        css: "./build/css",
-        js: "./build/js",
-        img: "./build/img"
-    }
-}
-</code>
-                </div>
-
-        </div>
-
-        <div class="social">
-            <p class="w-full text-center">Want to connect with me?</p>
-            <div class="flex justify-center space-x-6">
-                <a href="https://manjumjn.com">Website</a>
-                <a href="https://www.facebook.com/manjumjn">Facebook</a>
-                <a href="https://twitter.com/manju_mjn">Twitter</a>
-                <a href="mailto:manjumjng2@gmail.com">Email Me</a>
-            </div>
-        </div>
-    </div>
+    
+		<section class="text-gray-600 body-font">
+			<div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+				<div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+					<h1 class="title-font font-medium text-3xl text-gray-900">Волонтерська організація “Нове життя”</h1>
+					<p class="leading-relaxed mt-4">
+						З 24 лютого ми організували поставки більш ніж 400 тон гуманітарної допомоги у Харків. Ми напряму співпрацюємо з перевіреними благодійними організаціями,  волонтерськими групами, місцевою владою, та представниками ЗСУ. 
+					</p>
+					
+					<div class="flex flex-wrap -mx-4 mt-auto mb-auto content-start sm:pr-10">
+						<div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
+							<h2 class="title-font font-medium text-3xl text-gray-900"><span>&#10003;</span></h2>
+							<p class="leading-relaxed">
+								Офіційна організація
+							</p>
+						</div>
+						<div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
+							<h2 class="title-font font-medium text-3xl text-gray-900">400 т.</h2>
+							<p class="leading-relaxed">Гуманітарки доставлено</p>
+						</div>
+						<div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
+							<h2 class="title-font font-medium text-3xl text-gray-900">300 людей</h2>
+							<p class="leading-relaxed">Евакуйовано</p>
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+					<h2 class="text-gray-900 text-lg font-medium title-font ">Допоможемо Україні разом</h2>
+					<h2 class="text-gray-700 text-sm title-font mb-5">Ви можете зробити благодійний внесок</h2>
+					<div class="relative mb-4">
+						<label for="full-name" class="leading-7 text-sm text-gray-600">Сума</label>
+						<input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+					</div>
+					<button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Допомогти</button>
+				</div>
+			</div>
+		</section>
 
     <script src="./js/scripts.js"></script>
 
